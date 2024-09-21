@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameVerse</title>
+
+    <link rel="stylesheet" href="Germano_Augusto_Freitas_Barbosa/Css/global.css">
+    <link rel="stylesheet" href="Germano_Augusto_Freitas_Barbosa/Css/header.css">
+    <link rel="stylesheet" href="Germano_Augusto_Freitas_Barbosa/Css/main.css">
+    <link rel="stylesheet" href="Germano_Augusto_Freitas_Barbosa/Css/footer.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>GameVerse</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="links.html">Links</a></li>
+                <li><a href="fotos.html">Fotos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>               
+        </nav>
+        <img src="https://uniube.br/img/landing/logo_azul.svg" alt="Logo Faculdade Uniube" class="img-logo">
+    </header>
+
+    <main class="conteiner">
+        <form action="processa_formulario.php" method="post">
+            <h2>Entre em Contato</h2>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br><br>
+            <label for="email">Email:</label> 
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="sexo">Sexo:</label>
+            <input type="radio"> Masculino
+            <input type="radio"> Feminino
+            <br><br>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+            <br><br>
+            <input type="submit" value="Enviar">
+          </form>
+  </main>
+
+    <footer class="rodape">
+        <h2> 
+            Germano Augusto Freitas Barbosa  <br>
+            <center>
+                5156810
+            </center>
+        </h2>
+    </footer>
+</body>
+</html>
